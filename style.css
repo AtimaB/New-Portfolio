@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./assets/bgcoding.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 80px;
+    text-align: center;
+    color: #1d9eda;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1d9eda;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#link {
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#link:hover {
+    color: #1d9eda;
+    font-size: 18px;
+}
+
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color:white;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav ul a:hover {
+    color: #1d9eda;
+    font-size: 17px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    color: white;
+    background-color: rgb(12, 12, 12);
+}
+  
+.tabs .tab a {
+    background-color: rgb(12, 12, 12);
+    font-family: 'Vollkorn SC', serif;
+    color: #1d9eda;
+}
+
+.tabs .tab a:hover {
+    color: #1d9eda;
+    background-color: rgba(12, 12, 12, 0.904)
+}
+
+.tabs .tab a.active {
+    background-color: rgba(12, 12, 12, 0.904);
+    color: #1d9eda;
+}
+
+.tabs .indicator {
+    background-color: #1d9eda;
+}
+
+#skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-small {
+    background-color: rgba(110, 110, 110, 0.904);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-small:hover {
+    background-color: lightgray;
+    color: rgba(12, 12, 12, 0.904);
+}
+
+.sidenav li>a {
+    color: rgba(12, 12, 12, 0.904);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.sidenav li>a:hover {
+    color: #1d9eda;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+    box-shadow: 0  0 transparent;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #1d9eda;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
