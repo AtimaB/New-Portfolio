@@ -2,7 +2,7 @@
 Updated portfolio from the previous assignment. I changed the CSS Framework from Bootstrap to Materialize.
 
 ## Details about this portfolio
-The background of the website is my own screenshot of HTML file of this portfolio. It represents my own work I have created and very pround of. A I also updated my skills, projects, contact information, add resume and footer.
+The background of the website is my own screenshot of HTML file of this portfolio. It represents my own work I have created and very pround of. I also updated my skills, projects, contact information, add resume and footer.
 
 ## About me
  This page has short detail about me. I also added my skills and resume in this page.<br>
