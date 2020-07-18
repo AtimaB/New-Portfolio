@@ -21,7 +21,7 @@ This page I have contact information. When you click on Email, its linked to the
 ## Link
 https://atimab.github.io/New-Portfolio/
 
-## Resource
+## Resources
 https://materializecss.com/ <br>
 https://youtu.be/43uIJw5Nj5s
 
