@@ -4,13 +4,14 @@
     margin: 0;
 }
 
+
 body {
     background-image: url(./assets/BGcode.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     margin: 0;
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section {
@@ -18,33 +19,72 @@ body {
     padding-bottom: 4vw;
 }
 
+#hello {
+    color: #465e27de;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#name {
+    color: #b48846de;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#atima {
+    color: #33a189e7;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact, #portfolio1 {
+    color: #b48846de;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
     font-size: 28px;
     margin-top: 80px;
-    text-align: center;
-    color: #1d9eda;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
     font-size: 22px;
     color: #1d9eda;
+    font-family: 'Poppins', sans-serif;
 }
 
 h5 {
     font-size: 20px;
-    font-family: 'Vollkorn SC', serif;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
 }
 
 #skills {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 #link {
@@ -68,31 +108,34 @@ nav ul a {
     padding: 0 15px;
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 nav ul a:hover {
-    color: #1d9eda;
-    font-size: 17px;
+    color: #dace31e8;
+    font-size: 18px;
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {
     color: white;
     background-color: rgb(12, 12, 12);
+    font-family: 'Poppins', sans-serif;
 }
   
 .tabs .tab a {
     background-color: rgb(12, 12, 12);
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Poppins', sans-serif;
     color: #1d9eda;
 }
 
 .tabs .tab a:hover {
     color: #1d9eda;
-    background-color: rgba(12, 12, 12, 0.904)
+    background-color: rgb(12, 12, 12)
 }
 
 .tabs .tab a.active {
-    background-color: rgba(12, 12, 12, 0.904);
+    background-color: rgb(12, 12, 12);
     color: #1d9eda;
 }
 
@@ -101,14 +144,14 @@ nav ul a:hover {
 }
 
 #skills {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn-small {
     background-color: rgba(110, 110, 110, 0.904);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-small:hover {
